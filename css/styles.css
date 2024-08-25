@@ -292,7 +292,8 @@ blockquote {
 
 @media (max-width: 991px) {
   #testimonials {
-    background-image: url(../img/infinite-loop-02-mobile.jpg);
+    /* background-image: url(../img/infinite-loop-02-mobile.jpg); */
+    background-color: #001828;
     background-size: cover;
     background-repeat: no-repeat;
     background-size: 100%;
