@@ -61,14 +61,14 @@ blockquote {
 
 .tm-btn-primary {
   color: white;
-  background-color: #369;
+  background-color: #0B8C43;
   padding: 14px 30px;
 }
 
 .tm-btn-primary:hover,
 .tm-btn-primary:focus {
   color: white;
-  background-color: #38B;
+  background-color: #035426;
 }
 
 /* Navbar */
@@ -152,7 +152,7 @@ blockquote {
 
 #infinite {
 	background-color: #222;
-  background-image: url(../img/home1.png);
+  background-image: url(../img/home2.jpg);
   background-repeat: no-repeat;
   height: 100vh;
   min-height: 375px;
@@ -524,7 +524,7 @@ figure.effect-honey:hover h2 i {
 #contact {
   color: white;
   background-color: #001828;
-  background-image: url(../img/infinite-loop-03.jpg);
+  background-image: url(../img/contact.jpg);
   background-position: center;
   background-repeat: no-repeat;
   min-height: 980px;
