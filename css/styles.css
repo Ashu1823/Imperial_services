@@ -201,6 +201,11 @@ blockquote {
   }
 }
 
+.serviceLogo {
+  height:4rem;
+
+}
+
 .tm-hero-text-container-inner {
   margin-top: -90px;
 }
