@@ -1,14 +1,14 @@
-
 @import url("https://fonts.googleapis.com/css?family=Raleway:100,300,400,500,700,900");
 
 body {
-	font-family: "Raleway", sans-serif;
-	font-size: 1.2em;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.2em;
   color: #000;
   margin: 0;
   padding: 0;
   overflow-x: hidden;
 }
+
 a {
   transition: all 0.3s ease;
   color: #38B;
@@ -121,6 +121,7 @@ blockquote {
   border-radius: 10px;
   border-bottom: 5px solid green;
 }
+
 .tm-navbar.scroll .tm-nav-link.current {
   color: #FFF;
   background-color: #369;
@@ -151,7 +152,7 @@ blockquote {
 /* Hero */
 
 #infinite {
-	background-color: #222;
+  background-color: #222;
   background-image: url(../img/home2.jpg);
   background-repeat: no-repeat;
   height: 100vh;
@@ -196,13 +197,14 @@ blockquote {
   flex-flow: column;
   justify-content: end;
   margin-bottom: 3rem;
-  img{
+
+  img {
     height: 300px;
   }
 }
 
 .serviceLogo {
-  height:4rem;
+  height: 4rem;
 
 }
 
@@ -242,11 +244,11 @@ blockquote {
 }
 
 .tm-down-arrow {
-  	color: #FFF;
-    cursor: pointer;
-    background: #357;
-    padding: 15px 40px;
-    transition: all 0.3s ease;
+  color: #FFF;
+  cursor: pointer;
+  background: #357;
+  padding: 15px 40px;
+  transition: all 0.3s ease;
 }
 
 .tm-down-arrow:hover,
@@ -277,26 +279,28 @@ blockquote {
 }
 
 .tm-continue {
-	padding: 20px 0 30px 0;
+  padding: 20px 0 30px 0;
 }
 
 /* Testimonials */
 #testimonials {
-  color: #0B8C43 !important;
-  background-image: url(../img/infinite-loop-02.jpg);
-  background-size: cover;
+  color: #001828 !important;
+  background-color: #bdbbbb;
+  /* background-image: url(../img/infinite-loop-02.jpg); */
+  /* background-size: cover;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 100%; */
   position: relative;
 }
 
 @media (max-width: 991px) {
   #testimonials {
-    background-image: url(../img/infinite-loop-02-mobile.jpg);
-    background-color: #001828;
-    background-size: cover;
+    color: #001828 !important;
+    /* background-image: url(../img/infinite-loop-02-mobile.jpg); */
+    background-color: #bdbbbb;
+    /* background-size: cover;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 100%; */
   }
 }
 
@@ -421,7 +425,7 @@ blockquote {
 }
 
 .grid figure figcaption,
-.grid figure figcaption > a {
+.grid figure figcaption>a {
   position: absolute;
   top: 0;
   left: 0;
@@ -431,7 +435,7 @@ blockquote {
 
 /* Anchor will cover the whole item by default */
 /* For some effects it will show as a button */
-.grid figure figcaption > a {
+.grid figure figcaption>a {
   z-index: 1000;
   text-indent: 200%;
   white-space: nowrap;
@@ -525,8 +529,8 @@ figure.effect-honey:hover h2 i {
 }
 
 .tm-container-gallery {
-	padding-top: 30px;
-	}
+  padding-top: 30px;
+}
 
 /* Contact */
 
@@ -564,8 +568,8 @@ figure.effect-honey:hover h2 i {
 }
 
 .tm-input {
-	margin: 0 0 20px 0;
-	width: 90%;
+  margin: 0 0 20px 0;
+  width: 90%;
   padding: 8px 20px;
   border-radius: 6px;
   border: 1px solid white;
@@ -574,22 +578,23 @@ figure.effect-honey:hover h2 i {
 }
 
 .tm-btn-submit {
-	font-size: 0.9em;
-	color: #fff;
-	background-color: #369;
-	width: 50%;
-	margin-bottom: 60px;
+  font-size: 0.9em;
+  color: #fff;
+  background-color: #369;
+  width: 50%;
+  margin-bottom: 60px;
 }
 
 .tm-btn-submit:hover {
-	color: #fff;
-	background-color: #38B;
+  color: #fff;
+  background-color: #38B;
 }
 
 ::placeholder {
   /* Chrome, Firefox, Opera, Safari 10.1+ */
   color: white;
-  opacity: 1; /* Firefox */
+  opacity: 1;
+  /* Firefox */
 }
 
 :-ms-input-placeholder {
@@ -611,11 +616,11 @@ figure.effect-honey:hover h2 i {
 }
 
 .tm-footer a {
-	color: #fff;
+  color: #fff;
 }
 
 .tm-footer a:hover {
-	color: #9CF;
+  color: #9CF;
 }
 
 .tm-footer-link {
@@ -693,7 +698,7 @@ p {
 
   .navbar-collapse .nav-link {
     color: #707070;
-	padding-right: 20px;
+    padding-right: 20px;
   }
 }
 
@@ -716,6 +721,3 @@ p {
     margin: 0;
   }
 }
-
-
-
